@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Juguetería Mundo Feliz</title>
+        <link rel="stylesheet"  href="css/style.css">
+	</head>
+	<body>
+
+		<header id="encabezado">
+			<img src="img/logo.png" alt="Logo Juguetería Mundo Feliz" class="logo">
+			<h1>Juguetería Mundo Feliz</h1>
+			<p>Los mejores juguetes para todas las edades</p>
+
+			<nav id="menu-principal">
+				<ul>
+					<li><a href="#inicio">Inicio</a></li>
+					<li><a href="#catalogo">Catálogo</a></li>
+                    <li><a href="https://www.youtube.com/">Youtube</a></li>
+					<li><a href="#contacto">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="contenido">
+			<section id="inicio" class="seccion">
+				<h2>Bienvenidos</h2>
+				<p>Juguetería Mundo Feliz</p>
+				<p>Diversión garantizada para grandes y chicos</p>
+			</section>
+
+			<section id="catalogo" class="seccion">
+				<h2>Catálogo</h2>
+				<p>Aquí va una cuadrícula de tarjetas con espacio para imágenes. Haz clic en una tarjeta para marcarla como favorita.</p>
+				<p id="contador-favoritos">Favoritos: 0</p>
+
+				<div class="galeria">
+					<!-- Tarjeta 1 -->
+					<article class="tarjeta">
+						<div class="espacio-imagen">
+                            <img src="img/auto-control-remoto.jpg" alt="Auto a Control Remoto">
+						</div>
+						<h3>Auto a Control Remoto</h3>
+						<p>Ideal para los amantes de la velocidad, apto desde los 6 años.</p>
+					</article>
+
+					<!-- Tarjeta 2 -->
+					<article class="tarjeta">
+						<div class="espacio-imagen">
+                            <img src="img/muneca.jpg" alt="Muñeca Interactiva">
+						</div>
+						<h3>Muñeca Interactiva</h3>
+						<p>Habla, canta y responde a preguntas. Los peques la adoran.</p>
+					</article>
+
+					<!-- Tarjeta 3 -->
+					<article class="tarjeta">
+						<div class="espacio-imagen">
+                            <img src="img/bloques.jpg" alt="Set de Bloques">
+						</div>
+						<h3>Set de Bloques de Construcción</h3>
+						<p>Estimula la creatividad e imaginación desde pequeños.</p>
+					</article>
+
+					<!-- Tarjeta 4 -->
+					<article class="tarjeta">
+						<div class="espacio-imagen">
+                            <img src="img/peluche.jpg" alt="Peluche Oso">
+						</div>
+						<h3>Peluche Gigante</h3>
+						<p>Descripción breve de este elemento del catálogo.</p>
+					</article>
+
+					<!-- Tarjeta 5 -->
+					<article class="tarjeta">
+						<div class="espacio-imagen">
+                            <img src="img/pista.jpg" alt="Pista de Carreras">
+						</div>
+						<h3>Pista de Carreras</h3>
+						<p>Descripción breve de este elemento del catálogo.</p>
+					</article>
+
+					<!-- Tarjeta 6 -->
+					<article class="tarjeta">
+						<div class="espacio-imagen">
+                            <img src="img/juego-mesa.jpg" alt="Juego de Mesa">
+						</div>
+						<h3>Juego de Mesa Familiar</h3>
+						<p>Descripción breve de este elemento del catálogo.</p>
+					</article>
+				</div>
+			</section>
+
+			<section id="contacto" class="seccion">
+				<h2>Contacto</h2>
+				<p>Si tienes dudas o comentarios, puedes escribirnos:</p>
+
+				<form id="form-contacto" action="#" method="post">
+					<label for="nombre">Nombre:</label><br>
+					<input type="text" id="nombre" name="nombre"><br><br>
+
+					<label for="email">Correo:</label><br>
+					<input type="email" id="email" name="email"><br><br>
+
+					<label for="mensaje">Mensaje:</label><br>
+					<textarea id="mensaje" name="mensaje" rows="4" cols="30"></textarea><br><br>
+
+					<button type="submit">Enviar</button>
+					<button type="reset">Limpiar</button>
+				</form>
+				<p id="mensaje-formulario"></p>
+			</section>
+		</main>
+
+		<footer id="pie">
+			<p><small>&copy; <span id="anio-actual">2025</span> Juguetería Mundo Feliz - Todos los derechos reservados</small></p>
+		</footer>
+
+        <script src="js/script.js"></script>
+	</body>
+</html>
