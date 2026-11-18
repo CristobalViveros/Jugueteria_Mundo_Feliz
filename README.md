@@ -9,8 +9,11 @@ Página de inicio con bienvenida y catálogo de seis productos.
 Tarjetas que se marcan como favoritas al hacer clic, con un contador.
 Formulario de contacto con validación: campos obligatorios y nombre solo con letras.
 Año del pie de página actualizado automáticamente.
+
 Estructura
+
 text
+
 jugueteria/
 ├── index.html
 ├── contacto.html
